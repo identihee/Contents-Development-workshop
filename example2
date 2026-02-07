@@ -1,0 +1,11 @@
+# [Cell 2] : After - Azure ML 표준 경로 (성공 상황)
+import pandas as pd
+
+azureml_path = "azureml://subscriptions/44614d7d-9549-4aac-a899-90efda351ec4/resourcegroups/JeongChaeHee/workspaces/Azure_Machine_Learning_example/datastores/workspaceblobstore/paths/titanic.csv"
+
+# 데이터 읽기
+df = pd.read_csv(azureml_path)
+
+print("✅ 데이터 로드 성공! 비밀번호(Access Key) 없이 안전합니다.")
+print(f"데이터 크기: {df.shape}")
+display(df.head())
