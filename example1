@@ -1,0 +1,5 @@
+# [Cell 1] : Before - 친구 컴퓨터 경로 (에러 발생 상황 연출용)
+import pandas as pd
+
+#local_path = "C:/Users/MinSu/Downloads/titanic.csv"
+#df = pd.read_csv(local_path)
